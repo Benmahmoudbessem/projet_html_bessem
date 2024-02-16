@@ -1,0 +1,71 @@
+form {
+    
+    margin: 0 auto;
+    width: 700px;
+    
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    background-color: rgb(28, 151, 160);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li + li {
+    margin-top: 2em;
+}
+
+label {
+    
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+
+input,
+textarea {
+    
+    font: 1em sans-serif;
+    
+    width: 500px;
+    box-sizing: border-box; 
+    border: 1px solid #db2f2f;
+}
+
+input:focus,
+textarea:focus {
+   
+    border-color: #da1cba;
+}
+
+textarea {
+    
+    vertical-align: top;
+    
+    height: 5em;
+}
+
+.button {
+   
+    padding-left: 90px;
+   
+}
+
+button {
+   
+    margin-left: 0.5em;
+}
+ 
+body {
+    background: url('images/fond\ pay.jpg');
+  color: #000000;
+  margin: 53px;
+  width: 100%;
+  
+
+
+    }

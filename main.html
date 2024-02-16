@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="style.css" />
+        <title> Home page </title>
+    
+    </head>
+   
+    <body>
+        <div id="bloc_page">
+            <header>
+                <div id="titre_principal">
+                    <div id="logo">
+                        <img src="logo3.jpg"  alt="mon logo" />
+                        <h1> WELCOME TO OUR PAGE</h1> 
+                    </div>
+                </div>
+                
+                
+            </header>
+
+            <div class="menu">
+
+                <ul class="iconlist">
+
+                    <li class="info"><a href="#">Home</a></li>
+                    <li class="twitter"><a href="tunisia.html" target="_blank">Tunisia</a></li>
+                    <li class="twitter"><a href="city1.html" target="_blank">City1</a></li>
+                    <li class="twitter"><a href="city2.html" target="_blank">City2 </a></li>
+                    <li class="mail"><a href="formulaire.html" target="_blank">Contact </a></li>
+
+
+                </ul>
+            </div>
+            
+            
+            </div>
+            
+            <section>
+                <article>
+                   
+                    <p>Pour bien choisir sa destination de vacances, il faut savoir comprendre la description d'une ville, d'un village, d'une région.</p>
+                    <p>Pour bien choisir sa destination de vacances, il faut savoir comprendre la description d'une ville, d'un village, d'une région.</p>
+                    <p>Pour bien choisir sa destination de vacances, il faut savoir comprendre la description d'une ville, d'un village, d'une région.</p>
+                    <p>Pour bien choisir sa destination de vacances, il faut savoir comprendre la description d'une ville, d'un village, d'une région.</p>
+
+                    <p> Comment choisir sa destination </p>
+                    <p> vous partage ici quelques facteurs à considérer, afin d’être en mesure de choisir une destination adaptée à vos besoins..</p>
+                    <p> Savoir ce qui nous intéresse sur le moment est un bon point de départ </p>
+                    <p> faire un choix. Choisir un continent, une liste de pays qui nous attirent ou qui sont adaptés au type de voyage ou d’activités que nous désirons faire.</p>
+                    <p>Pour bien choisir sa destination de vacances, il faut savoir comprendre la description d'une ville, d'un village, d'une région.</p>
+                    <p>Pour bien choisir sa destination de vacances, il faut savoir comprendre la description d'une ville, d'un village, d'une région.</p>
+
+                    <p>Pour bien choisir sa destination de vacances, il faut savoir comprendre la description d'une ville, d'un village, d'une région.</p>
+                    <p>Pour bien choisir sa destination de vacances, il faut savoir comprendre la description d'une ville, d'un village, d'une région.</p>
+
+                    <p>vous partage ici quelques facteurs à considérer, afin d’être en mesure de choisir une destination adaptée à vos besoins.</p>
+                     
+
+                </article>
+                
+                
+                <aside>
+                    <h1> <ins>À propos de la ville </ins></h1>
+                    <img src="images/bulle.png" alt="" id="fleche_bulle" />
+                    <p id="photo"><img src="tunisie.jpg" alt="Photo" /></p>
+                    <p>Laisse-moi le temps de me présenter&nbsp;: je suis votre guide pour trouver tout ce qu'il vous faut sur les villes que vous cherchez.</p>
+                    <p>Donc voilà, vous pouvez naviguer sur cette page en toute tranquilité, tous les liens vous guideront sur vos recherches...</p>
+                    <p><a href="https://www.discovertunisia.com/" target="_blank" class="bouton_rouge"> Voir  <img src="images/flecheblanchedroite.png" alt="" /></a></p>
+                </aside>
+
+            </section>
+            
+            <footer>
+                
+                    
+                    <div id="listes">
+
+                        <ul class="iconlist">
+                            
+                            <li class="facebook"><a href="https://www.facebook.com/" target="_blank">facebook</a></li>
+                            <li class="twitter"><a href="https://www.instagram.com/?hl=fr" target="_blank">instagram</a></li>
+                            <li class="info"><a href="https://www.linkedin.com/" target="_blank"> linkedin </a></li>
+                            <li class="adress"><a href="https://www.google.com/search?sxsrf=ALeKk01ixvnM1rpptlg0WRmqFQ27638hRA:1587321747086&q=adresse&npsic=0&rflfq=1&rlha=0&rllag=36857119,10254335,7789&tbm=lcl&ved=2ahUKEwimhISnkvXoAhUktHEKHX_0CcIQtgN6BAgMEAQ&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:2&rldoc=1#rlfi=hd:;si:;mv:[[37.60180989701179,10.539866824403234],[36.48378367830363,8.982554812684484],null,[37.044855063934236,9.761210818543859],9]" target="_blank">Adress</a></li>
+                            <li class="mail"><a href="formulaire.html" target="_blank"> contact_us </a></li>
+                            
+                            <video width="640" height="360" controls au>
+                                <source src="welome.mp4" type="video/mp4">
+                                
+
+                        </ul>
+                    
+                           
+                    </div>
+
+                   
+                    </video>
+                    <audio controls autoplay>
+                        <source src="welcome-64347.mp3" type="audio/mp3">
+                    </audio>
+                   
+            </footer>
+        </div>
+        <script>
+            function afficherDateHeure() {
+                var maintenant = new Date();
+                var dateElement = document.getElementById("date");
+                var heureElement = document.getElementById("heure");
+    
+                // Formatage de la date
+                var optionsDate = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+                var dateFormatee = maintenant.toLocaleDateString('fr-FR', optionsDate);
+    
+                // Formatage de l'heure
+                var optionsHeure = { hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: false };
+                var heureFormatee = maintenant.toLocaleTimeString('fr-FR', optionsHeure);
+    
+                // Affichage de la date et de l'heure
+                dateElement.textContent = "Date : " + dateFormatee;
+                heureElement.textContent = "Heure : " + heureFormatee;
+    
+                 // Couleur du texte
+        var couleurDate = "blue";  // Modifier la couleur de la date ici
+        var couleurHeure = "red";  // Modifier la couleur de l'heure ici
+    
+        // Affichage de la date et de l'heure avec la couleur spécifiée
+        dateElement.innerHTML = "<span style='color:" + couleurDate + "'>Date : " + dateFormatee + "</span>";
+        heureElement.innerHTML = "<span style='color:" + couleurHeure + "'>Heure : " + heureFormatee + "</span>";
+    }
+    
+            
+    
+            // Appel initial de la fonction au chargement de la page
+            window.onload = afficherDateHeure;
+        </script>
+        <div>
+            <p id="date"></p>
+            <p id="heure"></p>
+        </div>
+
+
+        <style>
+            #date, #heure {
+        font-family: 'Times New Roman', Times, serif;
+        font-style: oblique;
+        text-align: right;
+        margin: 0;
+        padding: 15px;
+        font-size: 17px;
+    }
+</style>
+        
+    </body>
+</html>

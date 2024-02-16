@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="formulaire.css" />
+        <title>Formulaire à remplir</title>
+        
+        <style>
+            /* Ajoutez ce style pour définir la couleur par défaut du bouton */
+            button {
+                background-color: #2fec7e; /* Couleur par défaut (bleu) */
+            }
+        </style>
+
+        <script>
+            // Fonction pour changer la couleur du bouton lors du clic
+            function changeButtonColor() {
+                var button = document.getElementById("submitButton");
+                button.style.backgroundColor = "#ffd700"; /* Couleur d'or */
+            }
+        </script>
+	</head>
+
+	<body>
+		<form action="page de contact" method="post">
+			<ul>
+				<li>
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="user_name" required />
+				</li>
+				<li>
+					<label for="mail">E-mail:</label>
+					<input type="email" id="mail" name="user_mail" required />
+				</li>
+				<li>
+				<label for="phoneNumber ">Phone Number :</label>
+    <input type="tel" id="telephone" name="telephone" pattern="[0-9]*" title="Veuillez entrer un numéro de téléphone valide (chiffres de 0 à 9 uniquement)" required>
+				</li>
+				<li>
+					<label for="gender">Sex:</label>
+					
+					<select id="gender" name="gender" required>
+						<option value="homme">Homme</option>
+						<option value="femme">Femme</option>
+    </select>
+				</li>
+				<li>
+					<label for="msg">Message:</label>
+					<textarea id="msg" name="user_message"></textarea>
+				</li>
+				<li class="button">
+                    <!-- Ajoutez l'événement onclick pour appeler la fonction JavaScript -->
+					<button type="submit" id="submitButton" onclick="changeButtonColor()">Send your message</button>
+				</li>
+			</ul>
+		</form>
+	</body>
+</html>
